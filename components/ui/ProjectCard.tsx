@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   const { meta } = project;
 
   return (
-    <article className="group border border-gray-200 rounded-lg shadow-md overflow-hidden hover:scale-105 hover:shadow-lg transition-all duration-200">
+    <article className="group border border-gray-200 rounded-lg shadow-md overflow-hidden hover:scale-105 hover:shadow-lg transition-all duration-200 flex flex-col h-full">
       {/* Cover Image */}
       <div className="relative w-full aspect-video">
         <Image
@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div className="p-6 flex flex-col h-full">
         {/* Title */}
         <h3 className="text-xl font-bold text-gray-900 mb-2">{meta.title}</h3>
 
@@ -38,10 +38,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
 
-        {/* CTA Button */}
-        <Button variant="primary" href={`/realisations/${meta.slug}`}>
-          Voir le projet
-        </Button>
+        {/* CTA Button - pushed to bottom */}
+        <div className="mt-auto">
+          <Button variant="primary" href={`/realisations/${meta.slug}`}>
+            Voir le projet
+          </Button>
+        </div>
       </div>
     </article>
   );

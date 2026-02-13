@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Hero from '@/components/sections/Hero';
 import Bio from '@/components/sections/Bio';
-import TechStack from '@/components/sections/TechStack';
 
 export const metadata: Metadata = {
   title: 'À propos - Portfolio',
@@ -14,7 +13,6 @@ export default function HomePage() {
     <>
       <Hero />
       <Bio />
-      <TechStack />
     </>
   );
 }

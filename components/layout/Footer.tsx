@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/gpigot38800/portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-accent transition-colors text-sm"
@@ -16,7 +16,7 @@ export default function Footer() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/geoffrey-pigot-35b446161/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-accent transition-colors text-sm"
@@ -24,7 +24,7 @@ export default function Footer() {
               LinkedIn
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:geoffreypigot@yahoo.com"
               className="text-gray-600 hover:text-accent transition-colors text-sm"
             >
               Email
