@@ -98,6 +98,51 @@ export default async function ProjectPage({
           />
         </div>
 
+        {/* Additional Images Gallery */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          {/* Cover Image - Clickable */}
+          <a
+            href={project.meta.coverUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative h-48 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
+          >
+            <Image
+              src={project.meta.coverUrl}
+              alt={`${project.meta.title} - Aperçu 1`}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes="(max-width: 768px) 100vw, 448px"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center">
+              <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-sm font-medium">
+                🔍 Cliquer pour agrandir
+              </span>
+            </div>
+          </a>
+
+          {/* Workflow Image - Clickable */}
+          <a
+            href={`/projects/${slug}/workflow.png`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative h-48 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
+          >
+            <Image
+              src={`/projects/${slug}/workflow.png`}
+              alt={`${project.meta.title} - Workflow`}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes="(max-width: 768px) 100vw, 448px"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center">
+              <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-sm font-medium">
+                🔍 Cliquer pour agrandir
+              </span>
+            </div>
+          </a>
+        </div>
+
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           {project.meta.title}
