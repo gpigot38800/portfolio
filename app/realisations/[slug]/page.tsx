@@ -164,7 +164,7 @@ export default async function ProjectPage({
               >
                 <Image
                   src={project.meta.coverUrl}
-                  alt={`${project.meta.title} - Aperçu 1`}
+                  alt={`${project.meta.title} - Dashboard`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                   sizes="(max-width: 1024px) 100vw, 384px"
@@ -185,7 +185,28 @@ export default async function ProjectPage({
               >
                 <Image
                   src={`/projects/${slug}/workflow.png`}
-                  alt={`${project.meta.title} - Workflow`}
+                  alt={`${project.meta.title} - Analyse par secteur`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 1024px) 100vw, 384px"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-sm font-medium">
+                    🔍 Cliquer pour agrandir
+                  </span>
+                </div>
+              </a>
+
+              {/* Performance Image - Clickable (New) */}
+              <a
+                href={`/projects/${slug}/performance.png`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative h-48 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
+              >
+                <Image
+                  src={`/projects/${slug}/performance.png`}
+                  alt={`${project.meta.title} - Performance commerciale`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                   sizes="(max-width: 1024px) 100vw, 384px"

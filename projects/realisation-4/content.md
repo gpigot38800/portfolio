@@ -2,7 +2,7 @@
 
 📊 **DealPulse — Un outil de pilotage commercial complet pour visualiser, analyser et projeter ses performances de vente**
 
-Ce projet part d'un constat fréquent chez les équipes commerciales : les données existent dans des fichiers CSV, Notion ou Airtable, mais il manque un outil simple et visuel pour les exploiter. J'ai voulu créer un dashboard complet qui transforme des données brutes en indicateurs actionnables — avec filtres avancés, analyses graphiques et même un simulateur de projection — le tout piloté intégralement par Claude Code, sans écrire une seule ligne de code.
+Ce projet part d'un constat fréquent chez les équipes commerciales : les données existent dans des fichiers CSV, Notion ou Airtable, mais il manque un outil simple et visuel pour les exploiter. J'ai voulu créer un dashboard complet qui transforme des données brutes en indicateurs actionnables — avec filtres avancés, analyses graphiques et même un simulateur de projection — le tout piloté intégralement par Claude Code.
 
 - **Outils** : Claude Code + Vercel
 - **IA utilisée** : Claude Code (développement assisté par IA)
