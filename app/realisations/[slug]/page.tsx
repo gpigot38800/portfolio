@@ -183,6 +183,16 @@ export default async function ProjectPage({
           <Button variant="secondary" href="/realisations">
             ← Retour aux réalisations
           </Button>
+          {project.meta.demoUrl && (
+            <Button
+              variant="primary"
+              href={project.meta.demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🚀 Tester l&apos;application
+            </Button>
+          )}
           <Button variant="primary" href="/contact">
             Me contacter
           </Button>

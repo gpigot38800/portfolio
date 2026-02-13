@@ -1,0 +1,9 @@
+{
+  "title": "NightWatch — Dashboard de Gestion de la Fatigue",
+  "slug": "realisation-3",
+  "excerpt": "Application web de suivi et prévention de la fatigue pour les équipes travaillant en horaires décalés",
+  "tags": ["Claude Code", "Vercel", "Supabase", "IA", "No-Code", "Dashboard", "Santé au travail"],
+  "date": "2026-02",
+  "coverUrl": "/projects/realisation-3/cover.png",
+  "demoUrl": "https://app-sommeil.vercel.app/"
+}

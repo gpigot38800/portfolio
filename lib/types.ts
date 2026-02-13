@@ -8,6 +8,7 @@ export interface ProjectMeta {
   tags: string[];
   date: string;
   coverUrl: string;
+  demoUrl?: string; // Optional URL to test the application
 }
 
 /**

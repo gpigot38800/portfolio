@@ -1,0 +1,9 @@
+{
+  "title": "DealPulse — CRM Analytics & Pipeline Commercial",
+  "slug": "realisation-4",
+  "excerpt": "Dashboard de pilotage commercial avec KPIs temps réel, analyse sectorielle et simulateur de projection",
+  "tags": ["Claude Code", "Vercel", "IA", "No-Code", "CRM", "Dashboard", "Analytics"],
+  "date": "2026-02",
+  "coverUrl": "/projects/realisation-4/cover.png",
+  "demoUrl": "https://test-crm-flame.vercel.app/"
+}
