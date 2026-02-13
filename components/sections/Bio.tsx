@@ -9,8 +9,8 @@ export default function Bio() {
           Fort de douze années d&apos;expérience dans la restauration, j&apos;ai
           évolué à travers l&apos;ensemble des postes du secteur, débutant comme
           employé polyvalent pour accéder ensuite à des fonctions de management,
-          jusqu&apos;à devenir directeur de la restauration au sein de la
-          clinique HA VANENES en Bretagne.
+          jusqu&apos;à devenir directeur de la restauration au sein d&apos;une
+          clinique à Vannes.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Au fil de ce parcours, j&apos;ai développé de solides compétences en
