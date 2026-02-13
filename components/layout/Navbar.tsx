@@ -147,7 +147,7 @@ export default function Navbar() {
                     className={`group relative px-6 py-4 text-xl font-semibold rounded-xl transition-all duration-300 animate-slide-up ${
                       isActive(link.href)
                         ? 'text-white bg-gradient-to-r from-primary-600 to-primary-700 shadow-xl shadow-primary-500/30'
-                        : 'text-slate-200 hover:text-white hover:bg-slate-800'
+                        : 'text-primary-600 hover:text-white hover:bg-primary-700'
                     }`}
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >

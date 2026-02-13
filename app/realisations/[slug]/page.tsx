@@ -108,7 +108,7 @@ export default async function ProjectPage({
         {/* Layout en 2 colonnes : contenu + galerie d'images */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Colonne principale : Contenu */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 order-2 lg:order-1">
             {/* Content with colorful sections */}
             <article
               className="prose prose-lg max-w-none mb-12
@@ -149,7 +149,7 @@ export default async function ProjectPage({
           </div>
 
           {/* Colonne secondaire : Galerie d'images (sticky) */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 order-1 lg:order-2">
             <div className="sticky top-8 space-y-4">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">
                 📸 Aperçus du projet
@@ -186,27 +186,6 @@ export default async function ProjectPage({
                 <Image
                   src={`/projects/${slug}/workflow.png`}
                   alt={`${project.meta.title} - Analyse par secteur`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  sizes="(max-width: 1024px) 100vw, 384px"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center">
-                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-sm font-medium">
-                    🔍 Cliquer pour agrandir
-                  </span>
-                </div>
-              </a>
-
-              {/* Performance Image - Clickable (New) */}
-              <a
-                href={`/projects/${slug}/performance.png`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block relative h-48 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer group"
-              >
-                <Image
-                  src={`/projects/${slug}/performance.png`}
-                  alt={`${project.meta.title} - Performance commerciale`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                   sizes="(max-width: 1024px) 100vw, 384px"
