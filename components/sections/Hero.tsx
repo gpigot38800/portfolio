@@ -11,7 +11,8 @@ export default function Hero() {
           width={200}
           height={200}
           priority
-          className="rounded-full mx-auto mb-4"
+          className="rounded-full mx-auto mb-4 object-cover"
+          style={{ objectPosition: 'center 30%' }}
         />
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
           Geoffrey Pigot
