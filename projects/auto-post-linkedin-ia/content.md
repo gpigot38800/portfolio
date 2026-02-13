@@ -101,10 +101,10 @@ Mettre en place un système entièrement automatisé qui, chaque matin, récupè
 
 ## 🏆 Résultats
 
-✅ **Publication quotidienne automatique** : un post LinkedIn chaque matin sans intervention
-✅ **Contenu varié et pertinent** : sélection intelligente parmi 3 sources grâce à Claude
-✅ **Workflow robuste** : gestion des doublons, des erreurs et du formatage
-✅ **Gain de temps considérable** : ce qui prenait 30-45 minutes par jour est désormais entièrement automatisé
+- ✅ **Publication quotidienne automatique** : un post LinkedIn chaque matin sans intervention
+- ✅ **Contenu varié et pertinent** : sélection intelligente parmi 3 sources grâce à Claude
+- ✅ **Workflow robuste** : gestion des doublons, des erreurs et du formatage
+- ✅ **Gain de temps considérable** : ce qui prenait 30-45 minutes par jour est désormais entièrement automatisé
 
 ---
 
