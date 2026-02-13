@@ -98,7 +98,7 @@ Concevoir et déployer une application web complète permettant aux cadres de sa
 - ✅ **Planning interactif par service avec codes couleur**
 - ✅ **Import CSV guidé en 7 étapes pour une prise en main immédiate**
 - ✅ **Paramètres personnalisables pour s'adapter à tout établissement**
-- ✅ **Zéro ligne de code écrite manuellement — 100% piloté par IA**
+- ✅ **Développement complet par orchestration de Claude Code**
 
 ---
 

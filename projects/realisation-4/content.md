@@ -102,7 +102,7 @@ Concevoir et déployer un dashboard CRM permettant aux responsables commerciaux 
 - ✅ **Graphiques d'analyse par secteur et par commercial**
 - ✅ **Simulateur What-If interactif pour projeter des scénarios commerciaux**
 - ✅ **Import multi-sources : CSV, Notion, Airtable**
-- ✅ **Zéro ligne de code écrite manuellement — 100% piloté par IA**
+- ✅ **Développement complet par orchestration de Claude Code**
 
 ---
 
