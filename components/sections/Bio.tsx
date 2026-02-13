@@ -27,8 +27,7 @@ export default function Bio() {
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
-            Aujourd&apos;hui, cette reconversion est bien engagée. J&apos;ai développé plusieurs projets concrets : un système qui publie automatiquement du contenu sur LinkedIn, un agent IA de veille technologique, et des dashboards professionnels pour piloter des activités commerciales ou suivre la fatigue des équipes de nuit. Ces réalisations ne sont pas de simples exercices :
-            ce sont des applications déployées en production, qui fonctionnent et qui répondent à des besoins réels. Elles témoignent d&apos;une chose simple : j&apos;ai conservé mon approche pragmatique et ma capacité à livrer des résultats, mais je les applique désormais dans un domaine qui me passionne vraiment.
+            Aujourd&apos;hui, cette reconversion est bien engagée. J&apos;ai développé plusieurs projets concrets : un système qui publie automatiquement du contenu sur LinkedIn, un agent IA de veille technologique, et des dashboards professionnels pour piloter des activités commerciales ou suivre la fatigue des équipes de nuit. Ces réalisations ne sont pas de simples exercices, ce sont des applications déployées en production qui fonctionnent et répondent à des besoins réels. Elles témoignent d&apos;une chose simple : j&apos;ai conservé mon approche pragmatique et ma capacité à livrer des résultats, mais je les applique désormais dans un domaine qui me passionne vraiment.
           </p>
         </div>
       </div>
