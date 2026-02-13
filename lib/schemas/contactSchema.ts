@@ -14,6 +14,20 @@ export const contactSchema = z.object({
     .string()
     .email('L\'email n\'est pas valide'),
 
+  phone: z
+    .string()
+    .optional()
+    .refine(
+      (val) => {
+        // Si le champ est vide, c'est valide (optionnel)
+        if (!val || val.trim() === '') return true;
+        // Sinon, on vérifie que c'est un numéro valide (format français flexible)
+        const phoneRegex = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/;
+        return phoneRegex.test(val.replace(/\s/g, ''));
+      },
+      { message: 'Le numéro de téléphone n\'est pas valide' }
+    ),
+
   message: z
     .string()
     .min(10, 'Le message doit contenir au moins 10 caractères')

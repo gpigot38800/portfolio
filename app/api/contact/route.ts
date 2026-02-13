@@ -101,7 +101,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { name, email, message, honeypot } = validation.data;
+    const { name, email, phone, message, honeypot } = validation.data;
 
     // Check honeypot field (spam detection)
     if (honeypot) {
@@ -113,7 +113,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email
-    await sendContactEmail({ name, email, message });
+    await sendContactEmail({ name, email, phone, message });
 
     // Record request for rate limiting
     recordRequest(clientIP);

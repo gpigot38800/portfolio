@@ -3,13 +3,14 @@ import { Resend } from 'resend';
 interface ContactEmailData {
   name: string;
   email: string;
+  phone?: string;
   message: string;
 }
 
 /**
  * Create HTML email template
  */
-function createEmailHTML({ name, email, message }: ContactEmailData): string {
+function createEmailHTML({ name, email, phone, message }: ContactEmailData): string {
   return `
 <!DOCTYPE html>
 <html lang="fr">
@@ -88,6 +89,19 @@ function createEmailHTML({ name, email, message }: ContactEmailData): string {
         <a href="mailto:${email}" style="color: #667eea; text-decoration: none;">${email}</a>
       </div>
     </div>
+
+    ${
+      phone
+        ? `
+    <div class="field">
+      <div class="field-label">Téléphone</div>
+      <div class="field-value">
+        <a href="tel:${phone}" style="color: #667eea; text-decoration: none;">${phone}</a>
+      </div>
+    </div>
+    `
+        : ''
+    }
 
     <div class="field">
       <div class="field-label">Message</div>

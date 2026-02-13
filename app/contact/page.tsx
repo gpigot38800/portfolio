@@ -19,11 +19,13 @@ export default function ContactPage() {
     <main className="min-h-screen py-8 md:py-12">
       <div className="max-w-4xl mx-auto px-4">
         {/* Page header */}
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Contactez-moi
+        <div className="text-center mb-12 animate-slide-up">
+          <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-700 via-primary-600 to-accent-600">
+              Contactez-moi
+            </span>
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
             Si vous souhaitez me contacter pour échanger sur l&apos;automatisation IA, les
             intégrations no-code ou le développement web, je lirai votre message avec le
             plus grand intérêt et vous répondrai avec plaisir. N&apos;hésitez pas à me faire
