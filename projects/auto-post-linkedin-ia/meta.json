@@ -1,0 +1,8 @@
+{
+  "title": "Auto-Post LinkedIn IA",
+  "slug": "auto-post-linkedin-ia",
+  "excerpt": "Publication automatique quotidienne de posts LinkedIn sur l'actualité IA grâce à N8N, Claude API et l'API LinkedIn. Un workflow complet : veille RSS → sélection IA → rédaction → publication.",
+  "tags": ["N8N", "Claude API", "Automatisation", "No-Code", "IA", "LinkedIn"],
+  "date": "2026-02",
+  "coverUrl": "/projects/auto-post-linkedin-ia/cover.png"
+}
