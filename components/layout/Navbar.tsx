@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
-  { href: '/', label: 'À propos' },
-  { href: '/realisations', label: 'Réalisations' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/', label: 'Ma présentation' },
+  { href: '/realisations', label: 'Réalisations/Projets' },
+  { href: '/contact', label: 'Me contacter' },
 ];
 
 export default function Navbar() {
