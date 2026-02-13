@@ -15,28 +15,19 @@ export default function Bio() {
         {/* Bio content in a card */}
         <div className="glass rounded-2xl p-8 md:p-10 space-y-6 animate-fade-in shadow-xl">
           <p className="text-gray-800 text-lg leading-relaxed">
-            Fort de <span className="font-semibold text-primary-700">douze années d&apos;expérience</span> dans la restauration, j&apos;ai
-            évolué à travers l&apos;ensemble des postes du secteur, débutant comme
-            employé polyvalent pour accéder ensuite à des fonctions de management,
-            jusqu&apos;à devenir <span className="font-semibold text-primary-700">directeur de la restauration</span> au sein d&apos;une
-            clinique à Vannes.
+            Mon parcours professionnel a débuté il y a <span className="font-semibold text-primary-700">douze ans dans la restauration</span>. J&apos;ai commencé comme employé polyvalent, et au fil des années, j&apos;ai gravi les échelons jusqu&apos;à occuper le poste de <span className="font-semibold text-primary-700">directeur de la restauration</span> dans une clinique à Vannes. À ce poste, je pilotais une équipe de 15 personnes et supervisais la production de plus de 500 repas par jour, tout en gérant un budget conséquent et en garantissant le respect des normes HACCP.
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
-            Au fil de ce parcours, j&apos;ai développé de solides compétences en
-            <span className="font-semibold text-primary-700"> gestion d&apos;équipe</span>,
-            <span className="font-semibold text-primary-700"> organisation</span>,
-            <span className="font-semibold text-primary-700"> optimisation des process</span> et
-            <span className="font-semibold text-primary-700"> pilotage opérationnel</span>.
+            Ces années m&apos;ont appris bien plus que les métiers de la restauration. J&apos;y ai développé une capacité à <span className="font-semibold text-primary-700">coordonner des équipes</span>, à <span className="font-semibold text-primary-700">optimiser des processus complexes</span> et à prendre des décisions rapides dans des environnements sous pression. Ce que je ne savais pas encore, c&apos;est que ces compétences allaient devenir des atouts précieux pour un tout autre univers.
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
-            Aujourd&apos;hui, animé par une passion de longue date pour le
-            digital, je souhaite me réorienter vers le <span className="font-semibold text-accent-600">no-code</span> et
-            l&apos;<span className="font-semibold text-accent-600">intelligence artificielle</span>. Cette transition s&apos;inscrit à la
-            fois dans une volonté d&apos;évolution professionnelle et dans la
-            recherche d&apos;un meilleur équilibre entre vie personnelle et vie
-            professionnelle.
+            Parallèlement à ma carrière, j&apos;ai toujours nourri une passion pour le digital et les nouvelles technologies. Cette curiosité, longtemps restée en arrière-plan, a fini par prendre le dessus. J&apos;ai réalisé que le <span className="font-semibold text-accent-600">no-code</span> et l&apos;<span className="font-semibold text-accent-600">intelligence artificielle</span> me permettaient de concrétiser des idées sans être freiné par des barrières techniques. Plus encore, ils me donnaient l&apos;opportunité de créer des outils qui résolvent de vrais problèmes métier — exactement comme j&apos;avais l&apos;habitude de le faire en optimisant les process de mon service.
+          </p>
+
+          <p className="text-gray-800 text-lg leading-relaxed">
+            Aujourd&apos;hui, cette reconversion est bien engagée. J&apos;ai développé plusieurs projets concrets : un système qui publie automatiquement du contenu sur LinkedIn, un agent IA de veille technologique, et des dashboards professionnels pour piloter des activités commerciales ou suivre la fatigue des équipes de nuit. Ces réalisations ne sont pas de simples exercices : ce sont des applications déployées en production, qui fonctionnent et qui répondent à des besoins réels. Elles témoignent d&apos;une chose simple : j&apos;ai conservé mon approche pragmatique et ma capacité à livrer des résultats, mais je les applique désormais dans un domaine qui me passionne vraiment.
           </p>
         </div>
       </div>
