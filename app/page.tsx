@@ -1,13 +1,20 @@
-export default function Home() {
+import type { Metadata } from 'next';
+import Hero from '@/components/sections/Hero';
+import Bio from '@/components/sections/Bio';
+import TechStack from '@/components/sections/TechStack';
+
+export const metadata: Metadata = {
+  title: 'À propos - Portfolio',
+  description:
+    "12 ans d'expérience en restauration, transition vers no-code et IA",
+};
+
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold text-accent">
-        Portfolio - Phase 1 Complétée
-      </h1>
-      <p className="mt-4 text-lg">
-        Configuration initiale réussie avec Next.js 15, TypeScript et
-        TailwindCSS
-      </p>
-    </main>
+    <>
+      <Hero />
+      <Bio />
+      <TechStack />
+    </>
   );
 }
