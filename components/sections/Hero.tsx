@@ -36,7 +36,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto leading-relaxed animate-slide-up font-medium" style={{ animationDelay: '0.1s' }}>
-          12 ans d&apos;expérience en restauration,
+          14 ans d&apos;expérience en restauration,
           <span className="text-primary-600 font-semibold"> en reconversion </span>
           vers le no-code et l&apos;IA
         </p>
