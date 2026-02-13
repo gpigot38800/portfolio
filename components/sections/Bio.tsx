@@ -15,7 +15,7 @@ export default function Bio() {
         {/* Bio content in a card */}
         <div className="glass rounded-2xl p-8 md:p-10 space-y-6 animate-fade-in shadow-xl">
           <p className="text-gray-800 text-lg leading-relaxed">
-            Mon parcours professionnel a débuté il y a <span className="font-semibold text-primary-700">douze ans dans la restauration</span>. J&apos;ai commencé comme employé polyvalent, et au fil des années, j&apos;ai gravi les échelons jusqu&apos;à occuper le poste de <span className="font-semibold text-primary-700">directeur de la restauration</span> dans une clinique à Vannes. À ce poste, je pilotais une équipe de 15 personnes et supervisais la production de plus de 500 repas par jour, tout en gérant un budget conséquent et en garantissant le respect des normes HACCP.
+            Mon parcours professionnel a débuté il y a <span className="font-semibold text-primary-700">quatorze ans dans la restauration</span>. J&apos;ai commencé comme employé polyvalent, et au fil des années, j&apos;ai gravi les échelons jusqu&apos;à occuper le poste de <span className="font-semibold text-primary-700">directeur de la restauration</span> dans une clinique à Vannes. À ce poste, je pilotais une équipe de 15 personnes et supervisais la production de plus de 500 repas par jour, tout en gérant un budget conséquent et en garantissant le respect des normes HACCP.
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
@@ -27,7 +27,7 @@ export default function Bio() {
           </p>
 
           <p className="text-gray-800 text-lg leading-relaxed">
-            Aujourd&apos;hui, cette reconversion est bien engagée. J&apos;ai développé plusieurs projets concrets : un système qui publie automatiquement du contenu sur LinkedIn, un agent IA de veille technologique, et des dashboards professionnels pour piloter des activités commerciales ou suivre la fatigue des équipes de nuit. Ces réalisations ne sont pas de simples exercices, ce sont des applications déployées en production qui fonctionnent et répondent à des besoins réels. Elles témoignent d&apos;une chose simple : j&apos;ai conservé mon approche pragmatique et ma capacité à livrer des résultats, mais je les applique désormais dans un domaine qui me passionne vraiment.
+            Aujourd&apos;hui, cette reconversion est bien engagée. J&apos;ai développé plusieurs projets concrets : un système qui publie automatiquement du contenu sur LinkedIn, un agent IA de veille technologique, et des dashboards professionnels pour piloter des activités commerciales ou suivre la fatigue des équipes de nuit. Ces réalisations ne sont pas de simples exercices, ce sont des applications déployées en production qui fonctionnent et répondent à des besoins réels. Elles témoignent d&apos;une chose simple, j&apos;ai conservé mon approche pragmatique et ma capacité à livrer des résultats, mais je les applique désormais dans un domaine qui me passionne vraiment.
           </p>
         </div>
       </div>
