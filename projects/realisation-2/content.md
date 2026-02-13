@@ -8,10 +8,10 @@ Résumé et analyse automatique quotidienne de l'actualité IA avec agent intell
 
 L'idée de ce projet est née d'un besoin simple : suivre l'actualité de l'intelligence artificielle sans y passer des heures chaque jour. J'ai voulu créer un système qui non seulement collecte et résume les articles, mais qui soit capable de prendre des décisions autonomes pour approfondir les sujets les plus importants.
 
-**Outils no-code** : N8N + NewsAPI + SerpAPI
-**IA utilisée** : Claude (API Anthropic)
-**Durée du projet** : 1 jour
-**Période de réalisation** : Février 2026
+- **Outils no-code** : N8N + NewsAPI + SerpAPI
+- **IA utilisée** : Claude (API Anthropic)
+- **Durée du projet** : 1 jour
+- **Période de réalisation** : Février 2026
 
 ## 🎯 Objectif du Projet
 
@@ -105,11 +105,11 @@ Mettre en place un agent IA autonome qui, chaque matin, récupère les derniers 
 
 ## 🏆 Résultats
 
-✅ **Veille quotidienne automatique** : un email de synthèse IA chaque matin sans intervention
-✅ **Agent IA autonome** : décision intelligente d'approfondir les articles les plus pertinents
-✅ **Contenu multilingue** : traduction automatique depuis n'importe quelle langue vers le français
-✅ **Workflow robuste** : collecte, analyse, formatage et envoi en une seule chaîne automatisée
-✅ **Gain de temps considérable** : ce qui prenait 30-45 minutes de veille quotidienne est entièrement automatisé
+- ✅ **Veille quotidienne automatique** : un email de synthèse IA chaque matin sans intervention
+- ✅ **Agent IA autonome** : décision intelligente d'approfondir les articles les plus pertinents
+- ✅ **Contenu multilingue** : traduction automatique depuis n'importe quelle langue vers le français
+- ✅ **Workflow robuste** : collecte, analyse, formatage et envoi en une seule chaîne automatisée
+- ✅ **Gain de temps considérable** : ce qui prenait 30-45 minutes de veille quotidienne est entièrement automatisé
 
 ---
 
