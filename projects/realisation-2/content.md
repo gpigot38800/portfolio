@@ -1,7 +1,3 @@
-# Agent IA de Veille Technologique
-
-Résumé et analyse automatique quotidienne de l'actualité IA avec agent intelligent
-
 ## Présentation
 
 🤖 **Agent IA de Veille Technologique** - Automatisation complète de veille IA avec agent autonome

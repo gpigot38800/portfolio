@@ -1,7 +1,3 @@
-# Auto-Post LinkedIn IA
-
-Publication automatique quotidienne de posts LinkedIn sur l'actualité IA
-
 ## Présentation
 
 🤖 **Auto-Post LinkedIn IA** - Automatisation complète de veille technologique et publication LinkedIn
