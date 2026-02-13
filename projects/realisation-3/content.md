@@ -2,7 +2,7 @@
 
 🏥 **NightWatch — Un outil concret de prévention des risques pour le personnel hospitalier de nuit**
 
-Ce projet est né d'un vrai besoin terrain : les établissements de santé manquent d'outils simples pour suivre la fatigue de leurs équipes de nuit et anticiper les risques liés au manque de repos. J'ai voulu créer une application complète qui centralise le planning, calcule automatiquement les indicateurs de fatigue et alerte en cas de violation du Code du Travail — le tout sans écrire une seule ligne de code moi-même, en utilisant Claude Code comme assistant de développement.
+Ce projet est né d'un vrai besoin terrain : les établissements de santé manquent d'outils simples pour suivre la fatigue de leurs équipes de nuit et anticiper les risques liés au manque de repos. J'ai voulu créer une application complète qui centralise le planning, calcule automatiquement les indicateurs de fatigue et alerte en cas de violation du Code du Travail — le tout sans écrire une seule ligne de code, en utilisant Claude Code comme assistant de développement.
 
 - **Outils** : Claude Code + Vercel + Supabase
 - **IA utilisée** : Claude Code (développement assisté par IA)
