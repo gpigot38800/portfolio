@@ -15,6 +15,7 @@ export default function ContactForm() {
     register,
     handleSubmit,
     reset,
+    setValue,
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
@@ -26,6 +27,25 @@ export default function ContactForm() {
       honeypot: '',
     },
   });
+
+  // Format phone number as user types (French format: 06 12 34 56 78)
+  const formatPhoneNumber = (value: string) => {
+    // Remove all non-digit characters
+    const digits = value.replace(/\D/g, '');
+
+    // Limit to 10 digits (French mobile format)
+    const limitedDigits = digits.slice(0, 10);
+
+    // Add spaces every 2 digits
+    const formatted = limitedDigits.replace(/(\d{2})(?=\d)/g, '$1 ').trim();
+
+    return formatted;
+  };
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const formatted = formatPhoneNumber(e.target.value);
+    setValue('phone', formatted, { shouldValidate: true });
+  };
 
   const onSubmit = async (data: ContactFormData) => {
     setFormState('loading');
@@ -111,7 +131,9 @@ export default function ContactForm() {
             Téléphone <span className="text-gray-500 text-xs">(optionnel)</span>
           </label>
           <input
-            {...register('phone')}
+            {...register('phone', {
+              onChange: handlePhoneChange,
+            })}
             type="tel"
             id="phone"
             className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-primary-400 focus:border-primary-400 transition-all bg-white hover:border-slate-300 disabled:opacity-50"
