@@ -4,10 +4,10 @@
 
 L'idée de ce projet est née d'un constat simple : je passais beaucoup de temps à chercher des articles intéressants sur l'IA pour les partager sur LinkedIn. J'ai voulu automatiser tout le processus, de la veille à la publication, en gardant un ton naturel et professionnel.
 
-**Outils no-code** : N8N + LinkedIn API
-**IA utilisée** : Claude (API Anthropic)
-**Durée du projet** : 2 jours
-**Période de réalisation** : Février 2026
+- **Outils no-code** : N8N + LinkedIn API
+- **IA utilisée** : Claude (API Anthropic)
+- **Durée du projet** : 2 jours
+- **Période de réalisation** : Février 2026
 
 ## 🎯 Objectif du Projet
 

@@ -17,15 +17,17 @@ export const contactSchema = z.object({
   phone: z
     .string()
     .optional()
+    .transform((val) => val?.trim() || undefined)
     .refine(
       (val) => {
-        // Si le champ est vide, c'est valide (optionnel)
-        if (!val || val.trim() === '') return true;
+        // Si le champ est vide ou undefined, c'est valide (optionnel)
+        if (!val || val === '') return true;
         // Sinon, on vérifie que c'est un numéro valide (format français flexible)
-        const phoneRegex = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/;
-        return phoneRegex.test(val.replace(/\s/g, ''));
+        // Accepte : 06 12 34 56 78, 0612345678, +33612345678, +33 6 12 34 56 78
+        const phoneRegex = /^(?:(?:\+|00)33|0)\s?[1-9](?:[\s.-]?\d{2}){4}$/;
+        return phoneRegex.test(val);
       },
-      { message: 'Le numéro de téléphone n\'est pas valide' }
+      { message: 'Format invalide. Exemple : 06 12 34 56 78 ou +33 6 12 34 56 78' }
     ),
 
   message: z
