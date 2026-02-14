@@ -16,8 +16,8 @@ export const contactSchema = z.object({
 
   phone: z
     .string()
+    .trim()
     .optional()
-    .transform((val) => val?.trim() || undefined)
     .refine(
       (val) => {
         // Si le champ est vide ou undefined, c'est valide (optionnel)
