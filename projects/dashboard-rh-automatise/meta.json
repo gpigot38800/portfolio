@@ -1,0 +1,8 @@
+{
+  "title": "Dashboard RH - Suivi du Temps de Travail",
+  "slug": "dashboard-rh-automatise",
+  "excerpt": "Système automatisé de suivi du temps de travail pour 25 salariés au forfait jours avec alertes de conformité légale, rappels automatiques et dashboard RH temps réel. Stack : Google Forms, Sheets, n8n, Looker Studio.",
+  "tags": ["Google Sheets", "n8n", "Automatisation", "No-Code", "RH", "Looker Studio"],
+  "date": "2026-02",
+  "coverUrl": "/projects/dashboard-rh-automatise/cover.png"
+}
