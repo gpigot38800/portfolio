@@ -1,0 +1,8 @@
+{
+  "title": "Geoffrey Assistant — Bot Telegram IA Personnel",
+  "slug": "realisation-6",
+  "excerpt": "Assistant vocal et textuel sur Telegram propulsé par l'IA : agenda, notes, dépenses et météo, orchestré par n8n sur VPS",
+  "tags": ["n8n", "Claude API", "Whisper", "Telegram", "Google Calendar", "VPS", "Automatisation"],
+  "date": "2026-02",
+  "coverUrl": "/projects/realisation-6/cover.png"
+}
