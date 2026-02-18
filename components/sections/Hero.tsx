@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Button from '@/components/ui/Button';
+import CvButton from '@/components/ui/CvButton';
 
 export default function Hero() {
   return (
@@ -55,13 +56,14 @@ export default function Hero() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col md:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: '0.3s' }}>
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center animate-slide-up" style={{ animationDelay: '0.3s' }}>
           <Button variant="primary" href="/realisations">
             Voir mes réalisations
           </Button>
           <Button variant="secondary" href="/contact">
             Me contacter
           </Button>
+          <CvButton />
         </div>
 
         {/* Scroll indicator */}
