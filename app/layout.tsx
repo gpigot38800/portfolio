@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Portfolio - Développeur Web',
   description: 'Portfolio professionnel - Développeur Web Full Stack',
   viewport: 'width=device-width, initial-scale=1',
+  verification: {
+    google: 'oG2D023ezh9Wd8OJiVjzaCUJ7hyHjP_TjkbLgiwRXcY',
+  },
 };
 
 export default function RootLayout({
