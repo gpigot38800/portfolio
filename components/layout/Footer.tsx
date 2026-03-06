@@ -78,6 +78,12 @@ export default function Footer() {
               <span>+</span>
               <span className="text-accent-600 font-semibold">TailwindCSS</span>
             </p>
+            <a
+              href="/legal/privacy-policy.html"
+              className="text-xs text-gray-500 hover:text-primary-600 transition-colors duration-300"
+            >
+              Politique de confidentialité
+            </a>
           </div>
         </div>
       </div>
